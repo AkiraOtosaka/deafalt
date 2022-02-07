@@ -1402,11 +1402,11 @@ function initSearchLinks(links) {
     }
 
 
-    searchLinksInput.placeholder = "Search WebOasis Links";
+    searchLinksInput.placeholder = "Search Deafalt Links";
   } else {
     allLinkSources = [...links];
   }
-  searchLinksInput.placeholder = "Search WebOasis Links";
+  searchLinksInput.placeholder = "Search Deafalt Links";
 }
 
 
@@ -2234,7 +2234,7 @@ document.getElementById("exportSettings").addEventListener(
       links: localStorage.getItem("menu-items"),
     };
     let link = document.createElement("a");
-    link.setAttribute("download", "weboasis-settings.json");
+    link.setAttribute("download", "Deafalt-settings.json");
     link.href = exportUserSettings(userSettings);
     console.log(link.href);
     document.body.appendChild(link);
