@@ -6,13 +6,13 @@ let ssi = 0;
 let color = "#aaeb8d";
 let canvasBg = "matrix";
 let searchSources = [
+  ["x", "https://searx.tiekoetter.com/?q={Q}", "   SearX"],
   ["g", "https://www.google.com/search?q={Q}", "   Google"],
   ["d", "https://duckduckgo.com/?q={Q}", "  DuckDuckGo"],
   ["b", "https://search.brave.com/search?q={Q}", "   Brave"],
   ["y", "https://yandex.com/search/?text={Q}", "   Yandex"],
   ["s", "https://www.startpage.com/do/search?query={Q}", "   StartPage"],
   ["p", "https://engine.presearch.org/search?q={Q}", "   Presearch"],
-  ["x", "https://anon.sx/?q={Q}", "   SearX"],
   ["m", "https://www.mojeek.com/search?q={Q}", "   Mojeek"],
   ["e", "https://metager.org/meta/meta.ger3?eingabe={Q}", "   Metager"],
   ["q", "https://www.qwant.com/?q={Q}&t=web", "Qwant"],
