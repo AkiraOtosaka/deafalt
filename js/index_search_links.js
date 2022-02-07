@@ -3,7 +3,7 @@ let searchInputText = ""
 const linkSearch = document.getElementById("searchLinks");
 const defaultSearch = document.getElementById("searchBar");
 
-//Handles searching weboasis links and generates new search result based on entered search value
+//Handles searching Deafalt links and generates new search result based on entered search value
 function handleSearchQuery(e) {
 
   let defaultLinkSources = [];
